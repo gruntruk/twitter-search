@@ -1,4 +1,4 @@
-require 'api'
+require 'twitter_search/api'
 
 module TwitterSearch
   module CLI
