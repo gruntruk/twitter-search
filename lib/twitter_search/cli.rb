@@ -1,7 +1,7 @@
 require 'twitter_search/api'
 
 module TwitterSearch
-  module CLI
+  class CLI
 	MAX_RESULTS = 25
 
 	def self.search(query, io = STDOUT)
